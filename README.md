@@ -24,8 +24,8 @@ Module 1: Guided capture  ->  Module 2: YOLO segmentation  ->  Module 3: Compari
 | `compare.py` | Comparison logic: classifies each return defect as `pre-existing`, `new` or `dirt` |
 | `test_compare.py` | Tests for the comparison logic, using a temporary database |
 | `autoscan.db` | The SQLite database file |
-Download all the files except autoscan.db file
 
+(Download all the files except autoscan.db file)
 ## Requirements
 
 Python 3. No extra packages are needed (only the built-in `sqlite3`).
